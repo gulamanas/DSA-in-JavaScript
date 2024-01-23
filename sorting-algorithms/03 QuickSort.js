@@ -12,8 +12,7 @@ function quickSort(arr) {
       right.push(arr[i]);
     }
   }
-  let sortedArray = [...quickSort(left), pivot, ...quickSort(right)];
-  return sortedArray;
+  return [...quickSort(left), pivot, ...quickSort(right)];
 }
 
 // const arr = [8, 20, -2, 4, -6];
