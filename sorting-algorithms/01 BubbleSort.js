@@ -3,6 +3,8 @@ function bubbleSort(arr) {
   do {
     swapped = false;
     for (let i = 0; i < arr.length - 1; i++) {
+      // descending order (arr[i] < arr[i + 1])
+      // ascending order (arr[i] > arr[i + 1])
       if (arr[i] > arr[i + 1]) {
         let temp = arr[i];
         arr[i] = arr[i + 1];
