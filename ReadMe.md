@@ -1,1 +1,1 @@
-# This Project contains Problems of Data Structure and Algorithms in JavaScript
+# This Repository contains codes of Data Structure and Algorithms in JavaScript
